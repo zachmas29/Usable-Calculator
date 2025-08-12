@@ -1,3 +1,6 @@
+This project is a simple calculator. Users are prompted to enter 1 number, then another number, then an operator. The program registers the first number as the first operand and the second number as the second operand, then performs a math problem specified by the operator.
+
+
 Operation.java
 Defines the Operation class, which contains a static method `performOperation` for executing basic arithmetic operations (+, -, *, /) on two integer operands. It is used by the Calculator class to process operators read from the calculator's memory. Invalid operators throw an IllegalArgumentException.
 
